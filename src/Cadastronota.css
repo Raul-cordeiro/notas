@@ -1,0 +1,52 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #58d7fd;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  color: #58d7fd;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* aplica o espaçamento só entre os cards */
+}
+.letreiro {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border: 2px solid #dbdf1f;
+  background-color: #00000000;
+  color: rgb(255, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  animation: desliza 10s linear infinite;
+}
+
+
+.botao-voltar {
+  padding: 8px 16px;
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  width: 70px;
+}
+
+.botao-voltar:hover {
+  background-color: #0c0;
+}
+.botao-voltar:active {
+  background-color: #0a0;
+} 
